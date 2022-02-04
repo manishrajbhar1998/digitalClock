@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Outfit&display=swap');
+
+*{
+    margin: 0;
+}
+.container{
+    width: 60%;
+    margin: 100px auto;
+    font-family: 'Outfit', sans-serif;
+    padding: 50px;
+    background-color: #0f2230;
+    color: #fff;
+    box-shadow: 0 1px 10px 1px dodgerblue;
+    /* border: 5px solid dodgerblue; */
+}
+#date{
+    font-size: 1.5rem;
+}
+.digital{
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#msg{
+    font-size: 2rem;
+    padding: 10px 20px;
+    /* border: 2px dashed #fff; */
+}
+hr{
+    color: #fff;
+    width: 100%;
+    
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    /* box-sizing: border-box; */
+    background-color: #1A374D;
+    margin: 50px 20px;
+    padding: 10px 35px;
+    color: #fff;
+    box-shadow: 0 1px 5px #fff;
+    border-radius: 5px;
+}
+.clock div p{
+    font-size: 2rem;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    font-weight:900;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 10px;
+}
+#meridian{
+    border-bottom: none;
+    line-height: 100px;
+}
+.clock div span.hint{
+    display: block;
+    font-size: 15px;
+    margin-top: 35px;
+}
+span.colon{
+    margin: 50px 0;
+    padding: 20px 0;
+    font-size: 2rem;
+    line-height: 100px;
+}
+button{
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    background: transparent;
+    outline: none;
+    border: 3px solid #21435e;
+    transition: all .3s;
+    color: #fff;
+    border-radius: 5px;
+}
+button:nth-child(1){
+    margin-right: 20px;
+}
+button:hover{
+    background-color: #1A374D;
+    color: #fff;
+    box-shadow: 0 1px 5px 1px #fff;
+}
